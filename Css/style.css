@@ -1,0 +1,1673 @@
+/* Css font */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.cdnfonts.com/css/miama?styles=170364');
+
+/* Universal selector */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header section style start */
+#header {
+    width: 100%;
+    /* height: 715px; */
+    background: linear-gradient(0deg, #111 0%, rgba(119, 119, 119, 0.00) 800%);
+    margin: 0 auto;
+}
+
+.nevbar {
+    width: 934px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    /* border-radius: 39px; */
+
+}
+
+
+.nevbar h3 {
+    color: #E6533C;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 800;
+    line-height: 80%;
+    margin-top: 58.50px;
+}
+
+.nevbar img {
+    margin-top: 61px;
+    visibility: collapse;
+}
+
+.nevigation {
+    display: flex;
+    list-style: none;
+    gap: 47px;
+    align-items: center;
+    margin-top: 61px;
+    border-radius: 39px;
+    border: 1px solid rgba(255, 255, 255, 0.10);
+    padding-right: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 2px;
+    align-items: center;
+}
+
+.nevigation li a {
+    text-decoration: none;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 80%;
+}
+
+.nevigation .home-bg-style li a {
+    font-weight: 600;
+    line-height: normal;
+}
+
+.nevigation .home-bg-style {
+    border-radius: 46px;
+    background: #E6533C;
+    display: flex;
+    padding: 6px 18px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border: 2px solid red;
+    margin-left: 0;
+
+}
+
+
+
+.banner {
+    width: 934px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+.banner-title {
+    width: 527.12px;
+    /* margin-top: 96px; */
+}
+
+.banner-title .banner-h1 {
+    width: 457px;
+}
+
+.banner-title .banner-h1 h1 {
+    align-self: stretch;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 110%;
+}
+
+.banner-title .banner-h1 h1 .span {
+    font-family: miama;
+    font-weight: 400;
+    font-size: 58px;
+}
+
+.banner-title .banner-p {
+    margin-top: 28px;
+    margin-bottom: 28px;
+}
+
+.banner-title .banner-p {
+    width: 490px;
+}
+
+.banner-title .banner-p p {
+    align-self: stretch;
+    color: rgba(255, 255, 255, 0.50);
+
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+}
+
+
+.banner-img {
+    /* margin-top: 32px; */
+    position: relative;
+}
+
+.banner-img img {
+    width: 307.12px;
+    /* height: 543px; */
+    margin: 0 auto;
+}
+
+
+.banner-button {
+    display: flex;
+    gap: 10px;
+}
+
+.banner-button .banner-btn1 button {
+    background: none;
+    border: none;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 22px;
+}
+
+.banner-button .banner-btn1 {
+    display: flex;
+    width: 224px;
+    padding: 16px 40px;
+    justify-content: center;
+    align-items: flex-start;
+    border-radius: 42px;
+    background: #E6533C;
+}
+
+.banner-button .banner-btn2 button {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 22px;
+    border: none;
+    background: #111;
+}
+
+.banner-button .banner-btn2 {
+    display: flex;
+    width: 224px;
+    padding: 16px 40px;
+    justify-content: center;
+    align-items: flex-start;
+    border-radius: 42px;
+    border: 1px solid #FFF;
+    background: #111;
+}
+
+.banner-card1 {
+    width: 170px;
+    height: 84.48px;
+    flex-shrink: 0;
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.10);
+    background: rgba(48, 48, 48, 0.54);
+    backdrop-filter: blur(10px);
+    position: absolute;
+    bottom: 60px;
+    left: -80px;
+}
+
+.banner-card2 {
+    width: 170px;
+    height: 84.48px;
+    flex-shrink: 0;
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.10);
+    background: rgba(48, 48, 48, 0.54);
+    backdrop-filter: blur(10px);
+    position: absolute;
+    bottom: 60px;
+    left: -80px;
+}
+
+.banner-card1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner-card2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner-card1-parent {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.banner-card2-parent {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.banner-card2-parent .card-bg {
+    position: absolute;
+    bottom: 10px;
+    right: 95px;
+    bottom: 22px;
+
+}
+
+.banner-card2 .banner-card2-parent .card-bg img {
+    width: 50px;
+    height: 130px;
+}
+
+.banner-card2 .banner-card2-parent .card-bg .img-2 {
+    display: none;
+    visibility: hidden;
+}
+
+.card-text {
+    margin-left: 50px;
+}
+
+.card-text h2 {
+    color: var(--Text-1, #FAFAF9);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+}
+
+.card-text p {
+    color: var(--Text-2, rgba(239, 237, 232, 0.65));
+    font-family: Inter;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+}
+
+
+.banner-card1 {
+    bottom: 320px;
+    left: 200px;
+}
+
+.card-text1 {
+    margin-left: 30px;
+}
+
+.card-text1 h2 {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 40px;
+    letter-spacing: 1px;
+}
+
+.card-text1 p {
+    color: rgba(255, 255, 255, 0.65);
+    font-family: Inter;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 1px;
+}
+
+/* Header section style end */
+
+/* Habits section style start */
+
+
+#habbit {
+    width: 100%;
+    background: #000;
+}
+
+#habbit .habbit-parent {
+    width: 934px;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+
+
+.habbit-text h2 {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 120%;
+    text-align: center;
+}
+
+.habbit-text p {
+    width: 671px;
+    color: rgba(255, 255, 255, 0.50);
+    text-align: center;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    margin: 0 auto;
+    margin-top: 14px;
+}
+
+.flex-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 918.72px;
+    margin-top: 58px;
+    border: 2px solid white/;
+}
+
+.habbit-img-alltext {
+    width: 203.28px;
+    /* border: 2px solid greenyellow; */
+}
+
+.habbit-img {
+    width: 200px;
+    margin: 0 auto;
+
+}
+
+.habbit-img img {
+    /* border: 2px solid yellow; */
+    margin-left: 6.6px;
+
+    border-radius: 50%;
+}
+
+.habbit-img-text {
+    margin: 0 auto;
+    /* border: 2px solid red; */
+}
+
+.habbit-img-text h3 {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    text-align: center;
+}
+
+.habbit-img-text p {
+    width: 200px;
+    color: rgba(255, 255, 255, 0.50);
+    text-align: center;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0.3px;
+    margin-top: 1px;
+}
+
+
+/* run section style start here */
+
+#run {
+    background: #000;
+    width: 100%;
+    padding-top: 100px;
+}
+
+.run-parent-div {
+    width: 932.8px;
+    height: 312px;
+    border-radius: 18px;
+    background: #222;
+    margin: 0 auto;
+    padding: 17px;
+}
+
+.run-subparent-div {
+    width: 857.12px;
+    height: 277.56px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.run-child-div1 {
+    width: 389.84px;
+}
+
+.run-child-div1 .run-child-div1-text h2 {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 120%;
+}
+
+.run-child-div1 .run-child-div1-text p {
+    align-self: stretch;
+    color: rgba(255, 255, 255, 0.50);
+    font-family: Inter;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    margin-top: 14px;
+}
+
+.run-child-div1 .run-child-div1-text .run-child-div1-btn {
+    display: flex;
+    width: 224px;
+    padding: 12px 30px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 8px;
+    border-radius: 42px;
+    background: #E6533C;
+    margin-top: 21px;
+}
+
+.run-child-div1 .run-child-div1-text .run-child-div1-btn button {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 22px;
+    background: none;
+    border: none;
+}
+
+.run-child-div2 .img-large {
+    width: 322.08px;
+    height: 274.56px;
+    border-radius: 18px;
+    background: url(<path-to-image>) lightgray -592.626px -156.368px / 335.395% 258.887% no-repeat;
+}
+
+.run-child-div2 .img-small {
+    display: none;
+}
+
+/* run section style end here */
+
+/* BMi style */
+
+#bmi {
+    width: 100%;
+    background: #000;
+}
+
+.bmi-parent {
+    width: 590.48px;
+    padding-top: 88px;
+    padding-bottom: 88px;
+    margin: 0 auto;
+}
+
+.bmi-parent h2 {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 120%;
+}
+
+.bmi-parent p {
+    color: rgba(255, 255, 255, 0.50);
+    font-family: Inter;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    margin-top: 14px;
+
+}
+
+/* Calculator */
+
+#calculator {
+    width: 100%;
+    height: 487px;
+    background: #222;
+}
+
+.calculator-parent {
+    width: 932.8px;
+    padding-top: 88px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+.calculator-parent .bmi-table-text h2 {
+    width: 389.84px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 120%;
+    margin-bottom: 50px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th {
+    border: 1px solid rgba(255, 255, 255, 0.10);
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%;
+    padding: 11px 70px 12px 10px;
+}
+
+td {
+    border: 1px solid rgba(255, 255, 255, 0.10);
+    color: rgba(255, 255, 255, 0.50);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+    padding: 11px 70px 12px 18px;
+}
+
+.bmi-form {
+
+    width: 389.84px;
+    /* height: 386px; */
+}
+
+.bmi-form h2 {
+
+    color: #FFF;
+    font-family: Inter;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 120%;
+    margin-bottom: 14px;
+    padding-top: 50px;
+}
+
+.bmi-form p {
+    align-self: stretch;
+    color: rgba(255, 255, 255, 0.50);
+    font-family: Inter;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0.3px;
+    margin-bottom: 24px;
+}
+
+form {
+    display: flex;
+    height: 48px;
+    gap: 7px;
+
+
+}
+
+input {
+    align-items: center;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.10);
+    flex: 1 0 0;
+    margin-bottom: 10px;
+    border: none;
+    padding: 15px;
+}
+
+.sex {
+    position: relative;
+}
+
+.sex-chevron {
+    position: absolute;
+    right: 180px;
+    padding: 6px;
+}
+
+.activity {
+    position: relative;
+}
+
+.activity-chevron {
+    position: absolute;
+    right: 180px;
+    padding: 6px;
+}
+
+.bmi-form button {
+    display: flex;
+    width: 224px;
+    padding: 12px 30px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 8px;
+    border-radius: 42px;
+    background: #E6533C;
+    margin-top: 21px;
+    border: none;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 22px;
+}
+
+
+
+#team {
+    width: 100%;
+    background: #000;
+}
+
+.meet-our-team {
+    width: 590.48px;
+    padding-top: 88px;
+    padding-bottom: 88px;
+    margin: 0 auto;
+}
+
+.meet-our-team h2 {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 120%;
+    text-align: center;
+}
+
+.meet-our-team p {
+    color: rgba(255, 255, 255, 0.50);
+    font-family: Inter;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    margin-top: 14px;
+    text-align: center;
+
+}
+
+/* Our team */
+
+#our-team {
+    width: 100%;
+    background: #000;
+    padding-bottom: 88px;
+}
+
+.our-team-div {
+    width: 932.8px;
+    border-radius: 18px;
+    background: rgba(255, 255, 255, 0.10);
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-left: 18px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 17px;
+    gap: 18px;
+
+}
+
+.our-team-div .trainer-1 img {
+
+    width: 286.88px;
+    height: 230.88px;
+    border-radius: 18px;
+    align-self: stretch;
+}
+
+.our-team-div .trainer-2 img {
+
+    width: 286.88px;
+    height: 230.88px;
+    border-radius: 18px;
+    align-self: stretch;
+}
+
+.our-team-div .trainer-3 img {
+    width: 286.88px;
+    height: 230.88px;
+    border-radius: 18px;
+    align-self: stretch;
+}
+
+.our-team-div .trainer-4 img {
+    width: 286.88px;
+    height: 230.88px;
+    border-radius: 18px;
+    align-self: stretch;
+}
+
+.our-team-div .trainer-5 img {
+    width: 286.88px;
+    height: 230.88px;
+    border-radius: 18px;
+    align-self: stretch;
+}
+
+.our-team-div .trainer-6 img {
+    width: 286.88px;
+    height: 230.88px;
+    border-radius: 18px;
+    align-self: stretch;
+}
+
+.our-team-div .trainer-1,
+.trainer-2,
+.trainer-3,
+.trainer-4,
+.trainer-5,
+.trainer-6 {
+    position: relative;
+}
+
+.our-team-div .trainer-1 .trainer1-text {
+    position: absolute;
+    bottom: 20px;
+    left: 30px;
+}
+
+.our-team-div .trainer-1 .trainer1-text h3 {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 120%;
+}
+
+.our-team-div .trainer-1 .trainer1-text p {
+    color: rgba(255, 255, 255, 0.50);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+}
+
+.our-team-div .trainer-2 .trainer2-text {
+    position: absolute;
+    bottom: 20px;
+    left: 30px;
+}
+
+.our-team-div .trainer-2 .trainer2-text h3 {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 120%;
+}
+
+.our-team-div .trainer-2 .trainer2-text p {
+    color: rgba(255, 255, 255, 0.50);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+}
+
+.our-team-div .trainer-3 .trainer3-text {
+    position: absolute;
+    bottom: 20px;
+    left: 30px;
+}
+
+.our-team-div .trainer-3 .trainer3-text h3 {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 120%;
+}
+
+.our-team-div .trainer-3 .trainer3-text p {
+    color: rgba(255, 255, 255, 0.50);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+}
+
+.our-team-div .trainer-4 .trainer4-text {
+    position: absolute;
+    bottom: 20px;
+    left: 30px;
+}
+
+.our-team-div .trainer-4 .trainer4-text h3 {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 120%;
+}
+
+.our-team-div .trainer-4 .trainer4-text p {
+    color: rgba(255, 255, 255, 0.50);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+}
+
+.our-team-div .trainer-5 .trainer5-text {
+    position: absolute;
+    bottom: 20px;
+    left: 30px;
+}
+
+.our-team-div .trainer-5 .trainer5-text h3 {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 120%;
+}
+
+.our-team-div .trainer-5 .trainer5-text p {
+    color: rgba(255, 255, 255, 0.50);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+}
+
+.our-team-div .trainer-6 .trainer6-text {
+    position: absolute;
+    bottom: 20px;
+    left: 30px;
+}
+
+.our-team-div .trainer-6 .trainer6-text h3 {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 120%;
+}
+
+.our-team-div .trainer-6 .trainer6-text p {
+    color: rgba(255, 255, 255, 0.50);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+}
+
+/* Footer css */
+
+#foot {
+    width: 100%;
+    height: 489px;
+    background: #222;
+}
+
+.foot-parent {
+    width: 931.92px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 66px;
+}
+
+.foot-parent .footer-text {
+    width: 389.84px;
+}
+
+.foot-parent .footer-text h2 {
+    color: #E6533C;
+    font-family: Inter;
+    font-size: 50px;
+    font-style: italic;
+    font-weight: 800;
+    line-height: 120%;
+}
+
+.foot-parent .footer-text h5 {
+    align-self: stretch;
+    color: rgba(255, 255, 255, 0.50);
+    font-family: Inter;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0.2px;
+    margin-top: 20px;
+}
+
+.footer-text2 {
+    width: 181px;
+    height: 249px;
+}
+
+.footer-text2 h2 {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 29px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    margin-bottom: 18px;
+}
+
+.footer-text3 h2 {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 29px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    margin-bottom: 18px;
+}
+
+.footer-text2 h5 {
+    color: rgba(255, 255, 255, 0.50);
+    font-family: Inter;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    margin-top: 17px;
+}
+
+.footer-text3 h5 {
+    color: rgba(255, 255, 255, 0.50);
+    font-family: Inter;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    margin-top: 17px;
+}
+
+hr {
+    width: 931.92px;
+    margin: 0 auto;
+    margin-top: 70px;
+    stroke-width: 2px;
+    stroke: rgba(255, 255, 255, 0.10);
+}
+
+#foot .footer-p h5 {
+    text-align: center;
+    margin-top: 36px;
+    color: rgba(255, 255, 255, 0.50);
+    font-family: Inter;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+}
+
+
+/* Responsive small device css style start */
+
+@media screen and (max-width:576px) {
+    #header {
+        width: 393px;
+        margin-top: 0 auto;
+    }
+
+
+    .nevbar h3 {
+        color: #E6533C;
+        font-family: Inter;
+        font-size: 24px;
+        font-style: italic;
+        font-weight: 650;
+        line-height: 40%;
+        margin-top: 58.50px;
+    }
+
+    .nevbar img {
+        visibility: visible;
+    }
+
+    .nevigation {
+        visibility: hidden;
+    }
+
+    .nevbar .title-img {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 353px;
+        height: 43px;
+        margin-left: 20px;
+        margin-right: 20px;
+
+    }
+
+    .banner {
+        flex-wrap: wrap;
+        width: 352px;
+    }
+
+    .banner .banner-img {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 40px;
+    }
+
+    .banner .banner-title {
+        margin-left: 20px;
+    }
+
+
+    .banner .banner-title .banner-h1 {
+        width: 285px;
+    }
+
+    .banner .banner-title .banner-h1 h1 {
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 120%;
+    }
+
+    .banner .banner-title .banner-h1 h1 .span {
+        font-size: 36px;
+    }
+
+    .banner .banner-title .banner-p p {
+        width: 274px;
+    }
+
+    .banner .banner-title .banner-button .banner-btn1 {
+        width: 150px;
+        padding: 20px 20px;
+    }
+
+    .banner .banner-title .banner-button .banner-btn2 {
+        width: 150px;
+        padding: 20px 20px;
+    }
+
+    .banner .banner-title .banner-button .banner-btn1 button {
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+
+    .banner .banner-title .banner-button .banner-btn2 button {
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+
+    .banner-card2 .banner-card2-parent .card-bg img {
+        visibility: hidden;
+    }
+
+    .banner-card1 {
+        width: 155px;
+        height: 75.48px;
+        border-radius: 12px;
+        border: 1px solid rgba(255, 255, 255, 0.10);
+        background: rgba(48, 48, 48, 0.54);
+        backdrop-filter: blur(10px);
+        position: absolute;
+        bottom: 400px;
+        left: 170px;
+    }
+
+    .banner-card2 {
+        width: 140px;
+        height: 72.577px;
+        border-radius: 9.072px;
+        border: 0.756px solid rgba(255, 255, 255, 0.10);
+        position: absolute;
+        bottom: 210px;
+        left: 5px;
+    }
+
+    .banner-card2 .banner-card2-parent .card-bg .img-2 {
+        display: initial;
+        visibility: visible;
+        width: 30.241px;
+        height: 30.241px;
+        margin-left: 17px;
+        align-items: center;
+        display: flex;
+    }
+
+    #habbit {
+        width: 393px;
+        margin: 0 auto;
+
+    }
+
+    #habbit .habbit-parent {
+        width: 393px;
+        margin-top: 0;
+        padding-top: .50px;
+    }
+
+    #habbit .habbit-parent .habbit-text {
+        width: 390px;
+        margin: 0 auto;
+
+    }
+
+    .flex-div {
+        flex-wrap: wrap;
+        width: 393px;
+        display: flex;
+        justify-content: center;
+    }
+
+
+
+
+    .habbit-parent .habbit-text {
+        width: 318px;
+    }
+
+    .habbit-parent .habbit-text h2 {
+        color: #FFF;
+        font-family: Inter;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 120%;
+        width: 300px;
+        margin-left: 50px;
+    }
+
+    .habbit-parent .habbit-text p {
+        width: 316px;
+        color: rgba(255, 255, 255, 0.50);
+        text-align: center;
+        font-family: Inter;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 200;
+        line-height: 24px;
+        letter-spacing: 0.3px;
+        margin-left: 45px;
+    }
+
+    .habbit-img-alltext {
+        margin-bottom: 40px;
+    }
+
+    .habbit-img-alltext .habbit-img {
+        margin-bottom: 8px;
+    }
+
+    .habbit-img-alltext .habbit-img-text h3 {
+        margin-bottom: 7px;
+    }
+
+    /* Run section start */
+    #run {
+        width: 393px;
+        margin: 0 auto;
+    }
+
+    .run-parent-div {
+        width: 310px;
+        height: 531px;
+        margin: 0 auto;
+    }
+
+    .run-subparent-div {
+        flex-wrap: wrap;
+        width: 287px;
+        margin: 0 auto;
+    }
+
+    .run-parent-div .run-subparent-div .run-child-div1 {
+        width: 287px;
+        margin: 0 auto;
+    }
+
+    .run-parent-div .run-subparent-div .run-child-div1 .run-child-div1-text h2 {
+        font-size: 35px;
+    }
+
+    .run-parent-div {
+        padding: 10px;
+    }
+
+    .run-child-div1-text .run-child-div1-btn {
+        margin: 0 auto;
+    }
+
+    .run-child-div2 {
+        margin: 0 auto;
+        width: 287px;
+        height: 170px;
+        margin-top: 60px;
+        padding-right: 20px;
+    }
+
+    .run-child-div2 .img-large {
+        display: none;
+    }
+
+    .run-child-div2 .img-small {
+        display: initial;
+        visibility: visible;
+        width: 283px;
+        height: 165px;
+        border-radius: 18px;
+
+        background: url(<path-to-image>) lightgray -73.359px 0px / 130.662% 147.059% no-repeat;
+    }
+
+    /* Run section end */
+
+    #bmi {
+        width: 393px;
+        margin: 0 auto;
+
+    }
+
+    .bmi-parent {
+        width: 300px;
+        padding-top: 21px;
+        margin: 0 auto;
+    }
+
+    .bmi-parent h2 {
+        color: #FFF;
+        font-family: Inter;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 120%;
+    }
+
+    .bmi-parent p {
+        color: rgba(255, 255, 255, 0.50);
+        font-family: Inter;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 24px;
+        letter-spacing: 0.3px;
+        margin-top: 14px;
+        width: 320px;
+
+    }
+
+    #bmi {
+        width: 394px;
+    }
+
+    .bmi-parent {
+        width: 353px;
+        padding-top: 35px;
+        padding-bottom: 30px;
+    }
+
+    .bmi-parent h2 {
+        font-size: 32px;
+        font-weight: 700;
+        margin-left: 25px;
+    }
+
+    .bmi-parent p {
+        font-size: 13px;
+        line-height: 24px;
+        margin-top: 14px;
+        margin-left: 25px;
+
+    }
+
+    /* Calculator */
+
+    #calculator {
+        width: 394px;
+        height: 740px;
+        background: #222;
+        margin: 0 auto;
+    }
+
+    .calculator-parent {
+        width: 394px;
+        padding-top: 0px;
+        display: flex;
+        margin: 0 auto;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+
+    .calculator-parent .bmi-table-text {
+        width: 324px;
+        margin-left: 19px;
+    }
+
+    .calculator-parent .bmi-table-text h2 {
+        width: 389.84px;
+        font-size: 16px;
+        padding-top: 30px;
+
+    }
+
+    table {
+        border-collapse: collapse;
+    }
+
+    th {
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 100%;
+    }
+
+    td {
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 100%;
+    }
+
+    .bmi-form {
+        width: 354px;
+        margin: 0 auto;
+    }
+
+    .bmi-form h2 {
+
+        color: #FFF;
+        font-family: Inter;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 120%;
+        margin-bottom: 14px;
+        padding-top: 50px;
+    }
+
+    .bmi-form p {
+        align-self: stretch;
+        color: rgba(255, 255, 255, 0.50);
+        font-family: Inter;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 22px;
+        letter-spacing: 0.3px;
+        margin-bottom: 24px;
+    }
+
+    form {
+        display: flex;
+        height: 48px;
+        gap: 7px;
+
+
+    }
+
+    input {
+        display: flex;
+        height: 38px;
+        padding: 6px 20px 6px 10px;
+        align-items: center;
+        gap: 10px;
+        flex: 1 0 0;
+        width: 111px;
+    }
+
+    .sex {
+        position: relative;
+    }
+
+    .sex-chevron {
+        position: absolute;
+        right: 70px;
+        padding: 7px;
+    }
+
+    .activity {
+        position: relative;
+    }
+
+    .activity-chevron {
+        position: absolute;
+        right: 70px;
+        padding: 6px;
+    }
+
+    .bmi-form .form-btn {
+        padding-bottom: 30px;
+    }
+
+    .bmi-form button {
+        width: 164px;
+        padding: 12px 30px;
+        border-radius: 42px;
+        margin-top: 21px;
+        font-size: 17px;
+        font-weight: 600;
+        line-height: 22px;
+    }
+
+    #team {
+        width: 394px;
+        margin: 0 auto;
+        padding-bottom: 66px;
+    }
+
+    .meet-our-team {
+        width: 353px;
+        padding-top: 35px;
+        padding-bottom: 30px;
+    }
+
+    .meet-our-team h2 {
+        font-size: 32px;
+        font-weight: 700;
+        margin-left: 25px;
+    }
+
+    .meet-our-team p {
+        font-size: 13px;
+        line-height: 24px;
+        margin-top: 14px;
+        margin-left: 25px;
+
+    }
+
+    #our-team {
+        width: 393px;
+        margin: 0 auto;
+    }
+
+    .our-team-div {
+        width: 353px;
+        border-radius: 18px;
+        background: rgba(255, 255, 255, 0.10);
+        margin: 0 auto;
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+    .our-team-div .trainer-1,
+    .trainer-2,
+    .trainer-3,
+    .trainer-4,
+    .trainer-5,
+    .trainer-6 {
+        margin: 0 auto;
+    }
+
+
+    .our-team-div .trainer-1 img {
+
+        width: 275.44px;
+        height: 234.44px;
+        border-radius: 18px;
+        align-self: stretch;
+        display: none;
+
+    }
+
+    .our-team-div .trainer-1 .trainer1-text h3,
+    p {
+        display: none;
+    }
+
+
+    .our-team-div .trainer-2 img {
+
+        width: 275.44px;
+        height: 234.44px;
+        border-radius: 18px;
+        align-self: stretch;
+
+    }
+
+    .our-team-div .trainer-3 img {
+        width: 275.44px;
+        height: 234.44px;
+        border-radius: 18px;
+        align-self: stretch;
+
+    }
+
+    .our-team-div .trainer-4 img {
+        width: 275.44px;
+        height: 234.44px;
+        border-radius: 18px;
+        align-self: stretch;
+        display: none;
+
+    }
+
+    .our-team-div .trainer-4 .trainer4-text h3,
+    p {
+        display: none;
+    }
+
+    .our-team-div .trainer-5 img {
+        width: 275.44px;
+        height: 234.44px;
+        border-radius: 18px;
+        align-self: stretch;
+
+    }
+
+    .our-team-div .trainer-6 img {
+        width: 275.44px;
+        height: 234.44px;
+        border-radius: 18px;
+        align-self: stretch;
+
+    }
+
+
+
+    #foot {
+        width: 393px;
+        margin: 0 auto;
+        height: 100%;
+    }
+
+    .foot-parent {
+        width: 353px;
+        margin: 0 auto;
+        padding-top: 44px;
+        flex-direction: column;
+    }
+
+    .foot-parent .footer-text {
+        width: 317px;
+
+    }
+
+    .foot-parent .footer-text h5 {
+        font-size: 14px;
+
+    }
+
+    .footer-text2{
+        margin-top: 30px;
+    }
+
+    .footer-text2 h2 {
+
+        font-size: 25px;
+
+    }
+    .footer-text3 h2 {
+
+        font-size: 25px;
+
+    }
+
+    .footer-text3{
+        margin-top: 0;
+    }
+
+    hr{
+        width: 353px;
+    }
+
+
+}
+
+
+
+
+/* Responsive small device css end */
